@@ -13,7 +13,7 @@ export const ContactForm = () => {
   const onFinish = (values) => {
     setLoading(true);
     
-  
+    // Simulación de envío asíncrono
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
