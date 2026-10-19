@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, List, Typography, Tag } from 'antd';
-import { SectionTitle } from '../components/atoms/SectionTitle';
-import { education } from "../data/portafolioData";
+import { SectionTitle } from '../atoms/SectionTitle';
+import { education } from "../../data/portafolioData";
 
 const { Text } = Typography;
 

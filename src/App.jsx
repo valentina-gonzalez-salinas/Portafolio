@@ -2,12 +2,12 @@ import React from "react";
 import { Layout, ConfigProvider, Menu } from "antd";
 
 
-import { ExperienceSection } from "./organisms/ExperienciaSection.jsx";
-import { PersonalInfoSection } from "./organisms/PersonalInfoSection.jsx";
-import { EducacionSection } from "./organisms/EducacionSection.jsx";
-import { ProjectsSection } from "./organisms/ProjectsSection.jsx";
-import { ContactForm } from "./organisms/ContactForm.jsx";
-import { FooterSection } from "./organisms/FooterSection.jsx";
+import { ExperienceSection } from "./components/organisms/ExperienciaSection.jsx";
+import { PersonalInfoSection } from "./components/organisms/PersonalInfoSection.jsx";
+import { EducacionSection } from "./components/organisms/EducacionSection.jsx";
+import { ProjectsSection } from "./components/organisms/ProjectsSection.jsx";
+import { ContactForm } from "./components/organisms/ContactForm.jsx";
+import { FooterSection } from "./components/organisms/FooterSection.jsx";
 
 const { Header, Content } = Layout;
 

@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { Card, Form, Input, Button, Space, Alert, message } from 'antd';
-import { LinkedinOutlined, GithubOutlined, MailOutlined, SendOutlined } from '@ant-design/icons';
-import { SectionTitle } from '../components/atoms/SectionTitle';
+import { GithubOutlined, MailOutlined, SendOutlined } from '@ant-design/icons';
+import { SectionTitle } from '../atoms/SectionTitle';
 
 export const ContactForm = () => {
   const [form] = Form.useForm();
   
-  // Hook useState para controlar el estado de envío y mensajes
+
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const onFinish = (values) => {
     setLoading(true);
     
-    // Simulación de envío asíncrono
+  
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);

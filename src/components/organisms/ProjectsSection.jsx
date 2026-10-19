@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Flex, Radio } from 'antd';
-import { projects } from '../data/portafolioData'; // O portafolioData según cómo lo importes
+import { projects } from '../../data/portafolioData'; // O portafolioData según cómo lo importes
 
 export const ProjectsSection = () => {
   const [filter, setFilter] = useState('Todos');

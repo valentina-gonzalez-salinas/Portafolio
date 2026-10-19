@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex, Avatar, Typography, Card } from 'antd';
-import { personalInfo } from "../data/portafolioData";
-import fotoPerfil from '../assets/vale.jpg';
+import { personalInfo } from "../../data/portafolioData";
+import fotoPerfil from "../../assets/vale.jpg";;
 
 const { Title, Paragraph, Text } = Typography;
 
