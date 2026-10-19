@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Timeline, Typography } from 'antd';
-import { SectionTitle } from '../components/atoms/SectionTitle';
-import { experiences } from "../data/portafolioData";
+import { SectionTitle } from '../atoms/SectionTitle';
+import { experiences } from "../../data/portafolioData";
 
 const { Text, Paragraph } = Typography;
 
