@@ -6,14 +6,13 @@ import { SectionTitle } from '../components/atoms/SectionTitle';
 export const ContactForm = () => {
   const [form] = Form.useForm();
   
-  // Hook useState para controlar el estado de envío y mensajes
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const onFinish = (values) => {
     setLoading(true);
     
-    // Simulación de envío asíncrono
+
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
